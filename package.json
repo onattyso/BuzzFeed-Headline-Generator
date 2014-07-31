@@ -1,0 +1,15 @@
+{
+  "name": "BuzzFeed-Headline",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "connect": "1.9.2"
+  },
+  "author": "Natalie Sun",
+  "license": "BSD"
+}
