@@ -16,7 +16,8 @@ var advArray = [
 	"definitely",
 	"trendy",
 	"simply",
-	"deliciously"
+	"deliciously",
+	"unbelievably"
 ];
 
 var adjArray =[
@@ -31,7 +32,6 @@ var adjArray =[
 	"surprising",
 	"disturbing",
 	"funniest",
-	"unfathomable",
 	"juicy",
 	"sacred",
 	"mind-bending",
@@ -39,7 +39,58 @@ var adjArray =[
 	"90's",
 	"80's",
 	"70's",
-	"drool-worthy"
+	"drool-worthy",
+	"aggressive",
+	"bloody",
+	"next-level",
+	"colorful",
+	"handsome",
+	"magnificent",
+	"shiny",
+	"sparkling",
+	"ugly",
+	"expensive",
+	"horrible",
+	"impossible",
+	"innocent",
+	"modern",
+	"mushy",
+	"odd",
+	"outstanding",
+	"powerful",
+	"prickly",
+	"real",
+	"super",
+	"talented",
+	"wild",
+	"awful",
+	"bad",
+	"clumsy",
+	"confused",
+	"crazy",
+	"creepy",
+	"dangerous",
+	"disgusted",
+	"evil",
+	"fierce",
+	"grumpy",
+	"lazy",
+	"mysterious",
+	"nasty", 
+	"naughty",
+	"obnoxious",
+	"outrageous",
+	"scary",
+	"terrible",
+	"funny",
+	"fat",
+	"gigantic",
+	"huge",
+	"massive",
+	"teeny-tiny",
+	"noisy",
+	"filthy",
+	"life-changing"
 ];
 
 var verbArray =[
@@ -47,7 +98,8 @@ var verbArray =[
 	"you can't imagine",
 	"you're unable to comprehend",
 	"that prove",
-	"about"
+	"about",
+	"you turn down for what that"
 ];
 
 var nounArray =[
@@ -73,6 +125,45 @@ var nounArray =[
 	"angel tears",
 	"sausage fest",
 	"hotdog legs",
+	"Horse Masks",
+	"kids these days",
+	"Koala bears with untreated Chlamydia",
+	"Pears that look like butts",
+	"hotdog legs",
+	"Yogurt commercials",
+	"Wacky waving inflatable arm flailing tube man",
+	"Miley cyrus’ tongue",
+	"orphans and puppies",
+	"man sideboob",
+	"Sarah Palin",
+	"edible thongs",
+	"Justin Bieber's first pube",
+	"sausage fest",
+	"Oprah Winfrey",
+	"Dumbledore's hat",
+	"spirit fingers",
+	"Ouija Board",
+	"Selfie",
+	"hotdog legs",
+	"Paul the octopus",
+	"Doge",
+	"erotic cucumbers",
+	"furious honey badgers",
+	"Drake’s soft pussy",
+	"Quesorito",
+	"Ron Swanson",
+	"Catholic nuns",
+	"Nyan cat",
+	"Coachella",
+	"Instagram filter",
+	"#hashtags",
+	"Sharknado",
+	"Let It Go cover",
+	"Vine account",
+	"Nicolas Cage",
+	"the Fresh Prince of Bel-air",
+	"Miley Cyrus’ snaggle tooth",
+	"Sk8r Bois"
 ];
 
 var prepoArray =[
@@ -83,7 +174,7 @@ var prepoArray =[
 	"behind",
 	"like",
 	"without"
-]
+];
 
 var outcomeArray = [
 	"will melt your brain",
@@ -91,8 +182,10 @@ var outcomeArray = [
 	"will blow your mind",
 	"Miley would twerk for",
 	"you have to do in your 20s",
-	"you have to do in your 30s"
-]
+	"you have to do in your 30s",
+	"make you go bananas",
+	"only happen when you're high"
+];
 
 
 
