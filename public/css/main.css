@@ -141,7 +141,7 @@ body {
     height: 50%;
     margin: auto;
     position: relative;
-    top: 0; left: -100px; bottom: 0; right: 0;
+    top: 0; left: -8%; bottom: 0; right: 0;
     text-align: left;
     text-shadow: 2px 2px #940000;
 }

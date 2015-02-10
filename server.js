@@ -17,7 +17,30 @@ var advArray = [
 	"trendy",
 	"simply",
 	"deliciously",
-	"unbelievably"
+	"unbelievably", 
+	"only",
+	"lovely",
+	"tenderly",
+	"wildly",
+	"eagerly",
+	"tightly",
+	"safely",
+	"rudely",
+	"madly",
+	"loosely",
+	"foolishly",
+	"always",
+	"deliberately",
+	"elegantly",
+	"hopelessly",
+	"perfectly",
+	"selfishly",
+	"totally",
+	"badly",
+	"awesomely",
+	"fucking",
+	"awkwardly",
+	"tragically"
 ];
 
 var adjArray =[
@@ -90,7 +113,15 @@ var adjArray =[
 	"teeny-tiny",
 	"noisy",
 	"filthy",
-	"life-changing"
+	"life-changing",
+	"unfathomable",
+	"teeny-weeny",
+	"fuzzy",
+	"greasy",
+	"prickly",
+	"uneven",
+	"chewy",
+	"wet"
 ];
 
 var verbArray =[
@@ -99,7 +130,35 @@ var verbArray =[
 	"you're unable to comprehend",
 	"that prove",
 	"about",
-	"you turn down for what that"
+	"you turn down for what that",
+	"you can't watch at work",
+	"you'll want to do in bed",
+	"you know you love",
+	"they did last Christmas",
+	"you dreamt about at night",
+	"you did when you were five",
+	"you experienced on your last acid trip",
+	"you hide from your mom",
+	"Kanye interrupts",
+	"you need to see",
+	"you wish you did",
+	"you fantasize about",
+	"you'll never want to see again",
+	"you'll start crying over",
+	"you will never admit you do",
+	"you lust after",
+	"you know and love",
+	"you can't tweet about",
+	"you won't post on facebook",
+	"you can't SnapChat",
+	"you can Instagram",
+	"you won't show your kids",
+	"you have to try",
+	"you'll be obsessing over",
+	"you crave everyday",
+	"your parents will never understand",
+	"you wish happened to you",
+	"you can put on your bucketlist"
 ];
 
 var nounArray =[
@@ -121,8 +180,6 @@ var nounArray =[
 	"horse masks",
 	"slippery eels",
 	"itchy balls",
-	"bulletproof coffee",
-	"angel tears",
 	"sausage fest",
 	"hotdog legs",
 	"Horse Masks",
@@ -149,7 +206,6 @@ var nounArray =[
 	"Doge",
 	"erotic cucumbers",
 	"furious honey badgers",
-	"Drake’s soft pussy",
 	"Quesorito",
 	"Ron Swanson",
 	"Catholic nuns",
@@ -163,7 +219,51 @@ var nounArray =[
 	"Nicolas Cage",
 	"the Fresh Prince of Bel-air",
 	"Miley Cyrus’ snaggle tooth",
-	"Sk8r Bois"
+	"Sk8r Bois",
+	"Zach Galifinakis",
+	"Poop emoji",
+	"Ice Bucket challenge",
+	"Batman vs. Superman",
+	"Chris Pratt",
+	"Fanny Pack",
+	"French bulldog",
+	"chihuahuas",
+	"Sriracha",
+	"BitCoins",
+	"Pornhub",
+	"Helen Keller",
+	"Playboy Mansion's Basement",
+	"Tim Allen",
+	"Lance Armstrong's only testicle",
+	"The New Testament",
+	"a big red dog",
+	"the red rocket",
+	"Barack Obama",
+	"Old Lady Weenus",
+	"James Dean",
+	"Yellow Submarine",
+	"Metta World Peace",
+	"kegs of beer",
+	"Kim Kardashian's booty",
+	"Jimmy Fallon",
+	"Curious George",
+	"Helga from Hey Arnold",
+	"unibrow",
+	"Razor Scooter",
+	"the man, the myth, the legend",
+	"Woodstock",
+	"Nickelback groupies",
+	"Keith Richard's sweat",
+	"Richard Simmons",
+	"horse tranquilizer",
+	"Kenny Power's K-Swiss Sneakers",
+	"the MFCEO",
+	"a brass monkey",
+	"Bob Marley's dreadlock",
+	"Guantanamo Bay",
+	"an Angler Fish",
+	"a young and hip Alec Baldwin",
+	"Olive Garden"
 ];
 
 var prepoArray =[
@@ -184,7 +284,42 @@ var outcomeArray = [
 	"you have to do in your 20s",
 	"you have to do in your 30s",
 	"make you go bananas",
-	"only happen when you're high"
+	"only happen when you're high",
+	"haters are gonna hate",
+	"Kimye would give birth to",
+	"Paris Hilton would like totally love",
+	"make you projectile vomit",
+	"give you the best orgasm",
+	"make you cringe",
+	"burn your retinas",
+	"make you buy the next round",
+	"make you jump for joy",
+	"make you touch yourself at night",
+	"will drop the bass",
+	"should be a national holiday",
+	"will induce seizures",
+	"make you want to party",
+	"make your heart skip a beat",
+	"are just plain wrong",
+	"are worse than aids",
+	"were never explained",
+	"will go down in history",
+	"shouldn't be on the internet",
+	"will soon be a George Bush painting",
+	"make great song lyrics",
+	"will soon be painted by George Bush",
+	"make great song lyrics",
+	"are better than tripping on Bath Salts",
+	"you'll want to lather on your body",
+	"just don't make sense",
+	"will soon be trending",
+	"Benjamin Franklin never invented",
+	"will change the way you live",
+	"will make you never eat tapioca again",
+	"look better than moldy cottage cheese",
+	"should be a viral meme",
+	"will be on display in MOMA",
+	"will break the internet"
 ];
 
 
@@ -220,16 +355,7 @@ app.get('/headline.json', function(req, res){
 var server = app.listen(5000, function() {
     console.log('Listening on port %d', server.address().port);
 });
-// function onRequest(request, response) {
-//   console.log("Request received." + request);
-//   response.writeHead(200, {"Content-Type": "text/plain"});
-//   response.write("JAMES SUCKS: " + headline());
-//   response.end();
-// }
 
-// http.createServer(onRequest).listen(5000);
-
-// console.log("Server has started.");
 
 
 

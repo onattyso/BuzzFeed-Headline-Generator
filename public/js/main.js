@@ -12,11 +12,13 @@ var updateHeadline = function() {
 	$.ajax({
 		url: "http://localhost:5000/headline.json",
 		type: "GET",
+		// crossDomain: true,
+		// dataType: "jsonp",
 		timeout: 30000,
 
 		// Success Callback: http://192.168.124.28:5000/headline.json
 		success:function(data, textStatus) {
-			// console.log("Received response HTTP "+textStatus+" (http://192.168.124.28:5000/headline.json)");
+			console.log("Received response HTTP "+textStatus+" (http://192.168.124.28:5000/headline.json)");
 			// console.log(data);
 			$("#headline").html(data);
 		},
@@ -30,14 +32,3 @@ var updateHeadline = function() {
 }
 
 updateHeadline();
-
-
-
-
-
-
-
-
-
-
-
