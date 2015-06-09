@@ -10,6 +10,11 @@
     "express": "4.x",
     "connect": "1.9.2"
   },
+  "scripts": {
+     "start": "supervisor server.js"
+  },
+  "main": "server.js",
+
   "author": "Natalie Sun",
-  "license": "BSD"
+  "license": "BSD",
 }
