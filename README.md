@@ -9,3 +9,4 @@ BRB WILL UPDATE
 * Writing: [Ben Wiley](http://benwiley.com)
 
 
+* Ass-saver: [James Hagerman](http://zenpirate.com)
