@@ -1,0 +1,489 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.11.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator/package.json
+6 warn package.json BuzzFeed-Headline@1.0.0 No repository field.
+7 warn package.json BuzzFeed-Headline@1.0.0 license should be a valid SPDX license expression
+8 verbose install where, deps [ '/Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator',
+8 verbose install   [ 'express', 'connect' ] ]
+9 verbose install where, peers [ '/Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator', [] ]
+10 verbose installManyTop reading for lifecycle /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator/package.json
+11 info preinstall BuzzFeed-Headline@1.0.0
+12 verbose readDependencies loading dependencies from /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator/package.json
+13 silly cache add args [ 'connect@1.9.2', null ]
+14 verbose cache add spec connect@1.9.2
+15 silly cache add parsed spec { raw: 'connect@1.9.2',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'connect',
+15 silly cache add   rawSpec: '1.9.2',
+15 silly cache add   spec: '1.9.2',
+15 silly cache add   type: 'version' }
+16 silly addNamed connect@1.9.2
+17 verbose addNamed "1.9.2" is a plain semver version for connect
+18 silly mapToRegistry name connect
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/connect
+22 verbose addNameVersion registry:https://registry.npmjs.org/connect not in flight; fetching
+23 silly cache add args [ 'express@4.x', null ]
+24 verbose cache add spec express@4.x
+25 silly cache add parsed spec { raw: 'express@4.x',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'express',
+25 silly cache add   rawSpec: '4.x',
+25 silly cache add   spec: '>=4.0.0 <5.0.0',
+25 silly cache add   type: 'range' }
+26 silly addNamed express@>=4.0.0 <5.0.0
+27 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for express
+28 silly addNameRange { name: 'express', range: '>=4.0.0 <5.0.0', hasData: false }
+29 silly mapToRegistry name express
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/express
+33 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/express
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 00:15:09
+37 verbose request id fff21260b0012dc0
+38 verbose etag "ES8H8RWZUOL9B9CEHFCPK625H"
+39 http request GET https://registry.npmjs.org/express
+40 verbose request uri https://registry.npmjs.org/connect
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 00:15:09
+43 verbose etag "B6RL5MLXDG81U6V2PSAC3DUU"
+44 http request GET https://registry.npmjs.org/connect
+45 http 304 https://registry.npmjs.org/connect
+46 silly get cb [ 304,
+46 silly get   { date: 'Tue, 09 Jun 2015 07:15:09 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     'cache-control': 'max-age=60',
+46 silly get     etag: '"B6RL5MLXDG81U6V2PSAC3DUU"',
+46 silly get     age: '4',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-lax1424-LAX',
+46 silly get     'x-cache': 'HIT',
+46 silly get     'x-cache-hits': '1',
+46 silly get     'x-timer': 'S1433834109.499723,VS0,VE1',
+46 silly get     vary: 'Accept' } ]
+47 verbose etag https://registry.npmjs.org/connect from cache
+48 verbose get saving connect to /Users/Natalie Sun /.npm/registry.npmjs.org/connect/.cache.json
+49 http 304 https://registry.npmjs.org/express
+50 silly get cb [ 304,
+50 silly get   { date: 'Tue, 09 Jun 2015 07:15:09 GMT',
+50 silly get     via: '1.1 varnish',
+50 silly get     'cache-control': 'max-age=60',
+50 silly get     etag: '"ES8H8RWZUOL9B9CEHFCPK625H"',
+50 silly get     age: '36',
+50 silly get     connection: 'keep-alive',
+50 silly get     'x-served-by': 'cache-lax1421-LAX',
+50 silly get     'x-cache': 'HIT',
+50 silly get     'x-cache-hits': '1',
+50 silly get     'x-timer': 'S1433834109.503160,VS0,VE2',
+50 silly get     vary: 'Accept' } ]
+51 verbose etag https://registry.npmjs.org/express from cache
+52 verbose get saving express to /Users/Natalie Sun /.npm/registry.npmjs.org/express/.cache.json
+53 silly addNameRange number 2 { name: 'express', range: '>=4.0.0 <5.0.0', hasData: true }
+54 silly addNameRange versions [ 'express',
+54 silly addNameRange   [ '0.14.0',
+54 silly addNameRange     '0.14.1',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.0.2',
+54 silly addNameRange     '1.0.3',
+54 silly addNameRange     '1.0.4',
+54 silly addNameRange     '1.0.5',
+54 silly addNameRange     '1.0.6',
+54 silly addNameRange     '1.0.7',
+54 silly addNameRange     '1.0.8',
+54 silly addNameRange     '2.0.0',
+54 silly addNameRange     '2.1.0',
+54 silly addNameRange     '2.1.1',
+54 silly addNameRange     '2.2.0',
+54 silly addNameRange     '2.2.1',
+54 silly addNameRange     '2.2.2',
+54 silly addNameRange     '2.3.0',
+54 silly addNameRange     '2.3.1',
+54 silly addNameRange     '2.3.2',
+54 silly addNameRange     '2.3.3',
+54 silly addNameRange     '2.3.4',
+54 silly addNameRange     '2.3.5',
+54 silly addNameRange     '2.3.6',
+54 silly addNameRange     '2.3.7',
+54 silly addNameRange     '2.3.8',
+54 silly addNameRange     '2.3.9',
+54 silly addNameRange     '2.3.10',
+54 silly addNameRange     '2.3.11',
+54 silly addNameRange     '2.3.12',
+54 silly addNameRange     '2.4.0',
+54 silly addNameRange     '2.4.1',
+54 silly addNameRange     '2.4.2',
+54 silly addNameRange     '2.4.3',
+54 silly addNameRange     '2.4.4',
+54 silly addNameRange     '2.4.5',
+54 silly addNameRange     '2.4.6',
+54 silly addNameRange     '2.4.7',
+54 silly addNameRange     '2.5.0',
+54 silly addNameRange     '2.5.1',
+54 silly addNameRange     '2.5.2',
+54 silly addNameRange     '2.5.3',
+54 silly addNameRange     '2.5.4',
+54 silly addNameRange     '2.5.5',
+54 silly addNameRange     '2.5.6',
+54 silly addNameRange     '2.5.7',
+54 silly addNameRange     '2.5.8',
+54 silly addNameRange     '2.5.9',
+54 silly addNameRange     '2.5.10',
+54 silly addNameRange     '2.5.11',
+54 silly addNameRange     '3.0.0',
+54 silly addNameRange     '3.0.1',
+54 silly addNameRange     '3.0.2',
+54 silly addNameRange     '3.0.3',
+54 silly addNameRange     '3.0.4',
+54 silly addNameRange     '3.0.5',
+54 silly addNameRange     '3.0.6',
+54 silly addNameRange     '3.1.0',
+54 silly addNameRange     '3.1.1',
+54 silly addNameRange     '3.1.2',
+54 silly addNameRange     '3.2.0',
+54 silly addNameRange     '3.2.1',
+54 silly addNameRange     '3.2.2',
+54 silly addNameRange     '3.2.3',
+54 silly addNameRange     '3.2.4',
+54 silly addNameRange     '3.2.5',
+54 silly addNameRange     '3.2.6',
+54 silly addNameRange     '3.3.0',
+54 silly addNameRange     '3.3.1',
+54 silly addNameRange     '3.3.2',
+54 silly addNameRange     '3.3.3',
+54 silly addNameRange     '3.3.4',
+54 silly addNameRange     '3.3.5',
+54 silly addNameRange     '3.3.6',
+54 silly addNameRange     '1.0.0-beta',
+54 silly addNameRange     '1.0.0-beta2',
+54 silly addNameRange     '1.0.0-rc',
+54 silly addNameRange     '1.0.0-rc2',
+54 silly addNameRange     '1.0.0-rc3',
+54 silly addNameRange     '1.0.0-rc4',
+54 silly addNameRange     '2.0.0-beta',
+54 silly addNameRange     '2.0.0-beta2',
+54 silly addNameRange     '2.0.0-beta3',
+54 silly addNameRange     '2.0.0-rc',
+54 silly addNameRange     '2.0.0-rc2',
+54 silly addNameRange     '2.0.0-rc3',
+54 silly addNameRange     '3.0.0-alpha1',
+54 silly addNameRange     '3.0.0-alpha2',
+54 silly addNameRange     '3.0.0-alpha3',
+54 silly addNameRange     '3.0.0-alpha4',
+54 silly addNameRange     '3.0.0-alpha5',
+54 silly addNameRange     '3.0.0-beta1',
+54 silly addNameRange     '3.0.0-beta2',
+54 silly addNameRange     '3.0.0-beta3',
+54 silly addNameRange     '3.0.0-beta4',
+54 silly addNameRange     '3.0.0-beta6',
+54 silly addNameRange     '3.0.0-beta7',
+54 silly addNameRange     '3.0.0-rc1',
+54 silly addNameRange     '3.0.0-rc2',
+54 silly addNameRange     '3.0.0-rc3',
+54 silly addNameRange     '3.0.0-rc4',
+54 silly addNameRange     '3.0.0-rc5',
+54 silly addNameRange     '3.3.7',
+54 silly addNameRange     '3.3.8',
+54 silly addNameRange     '3.4.0',
+54 silly addNameRange     '3.4.1',
+54 silly addNameRange     '3.4.2',
+54 silly addNameRange     '3.4.3',
+54 silly addNameRange     '3.4.4',
+54 silly addNameRange     '3.4.5',
+54 silly addNameRange     '3.4.6',
+54 silly addNameRange     '3.4.7',
+54 silly addNameRange     '3.4.8',
+54 silly addNameRange     '4.0.0-rc1',
+54 silly addNameRange     '4.0.0-rc2',
+54 silly addNameRange     '3.5.0',
+54 silly addNameRange     '4.0.0-rc3',
+54 silly addNameRange     '4.0.0-rc4',
+54 silly addNameRange     '3.5.1',
+54 silly addNameRange     '4.0.0',
+54 silly addNameRange     '3.5.2',
+54 silly addNameRange     '4.1.0',
+54 silly addNameRange     '4.1.1',
+54 silly addNameRange     '3.5.3',
+54 silly addNameRange     '4.1.2',
+54 silly addNameRange     '3.6.0',
+54 silly addNameRange     '4.2.0',
+54 silly addNameRange     '3.7.0',
+54 silly addNameRange     '3.8.0',
+54 silly addNameRange     '4.3.0',
+54 silly addNameRange     '4.3.1',
+54 silly addNameRange     '3.8.1',
+54 silly addNameRange     '4.3.2',
+54 silly addNameRange     '3.9.0',
+54 silly addNameRange     '4.4.0',
+54 silly addNameRange     '4.4.1',
+54 silly addNameRange     '3.10.0',
+54 silly addNameRange     '3.10.1',
+54 silly addNameRange     '3.10.2',
+54 silly addNameRange     '3.10.3',
+54 silly addNameRange     '3.10.4',
+54 silly addNameRange     '4.4.2',
+54 silly addNameRange     '3.10.5',
+54 silly addNameRange     '4.4.3',
+54 silly addNameRange     '3.11.0',
+54 silly addNameRange     '4.4.4',
+54 silly addNameRange     '3.12.0',
+54 silly addNameRange     '3.12.1',
+54 silly addNameRange     '4.4.5',
+54 silly addNameRange     '3.13.0',
+54 silly addNameRange     '4.5.0',
+54 silly addNameRange     '4.5.1',
+54 silly addNameRange     '3.14.0',
+54 silly addNameRange     '4.6.0',
+54 silly addNameRange     '4.6.1',
+54 silly addNameRange     '3.15.0',
+54 silly addNameRange     '4.7.0',
+54 silly addNameRange     '3.15.1',
+54 silly addNameRange     '4.7.1',
+54 silly addNameRange     '3.15.2',
+54 silly addNameRange     '4.7.2',
+54 silly addNameRange     '4.7.3',
+54 silly addNameRange     '3.15.3',
+54 silly addNameRange     '4.7.4',
+54 silly addNameRange     '3.16.0',
+54 silly addNameRange     '4.8.0',
+54 silly addNameRange     '3.16.1',
+54 silly addNameRange     '4.8.1',
+54 silly addNameRange     '3.16.2',
+54 silly addNameRange     '4.8.2',
+54 silly addNameRange     '3.16.3',
+54 silly addNameRange     '3.16.4',
+54 silly addNameRange     '4.8.3',
+54 silly addNameRange     '3.16.5',
+54 silly addNameRange     '3.16.6',
+54 silly addNameRange     '4.8.4',
+54 silly addNameRange     '3.16.7',
+54 silly addNameRange     '4.8.5',
+54 silly addNameRange     '3.16.8',
+54 silly addNameRange     '4.8.6',
+54 silly addNameRange     '3.16.9',
+54 silly addNameRange     '4.8.7',
+54 silly addNameRange     '3.16.10',
+54 silly addNameRange     '4.8.8',
+54 silly addNameRange     '3.17.0',
+54 silly addNameRange     '3.17.1',
+54 silly addNameRange     '4.9.0',
+54 silly addNameRange     '3.17.2',
+54 silly addNameRange     '4.9.1',
+54 silly addNameRange     '4.9.2',
+54 silly addNameRange     '3.17.3',
+54 silly addNameRange     '4.9.3',
+54 silly addNameRange     '3.17.4',
+54 silly addNameRange     '4.9.4',
+54 silly addNameRange     '3.17.5',
+54 silly addNameRange     '4.9.5',
+54 silly addNameRange     '3.17.6',
+54 silly addNameRange     '3.17.7',
+54 silly addNameRange     '4.9.6',
+54 silly addNameRange     '4.9.7',
+54 silly addNameRange     '3.17.8',
+54 silly addNameRange     '4.9.8',
+54 silly addNameRange     '3.18.0',
+54 silly addNameRange     '3.18.1',
+54 silly addNameRange     '4.10.0',
+54 silly addNameRange     '3.18.2',
+54 silly addNameRange     '4.10.1',
+54 silly addNameRange     '5.0.0-alpha.1',
+54 silly addNameRange     '3.18.3',
+54 silly addNameRange     '4.10.2',
+54 silly addNameRange     '3.18.4',
+54 silly addNameRange     '4.10.3',
+54 silly addNameRange     '4.10.4',
+54 silly addNameRange     '4.10.5',
+54 silly addNameRange     '3.18.5',
+54 silly addNameRange     '3.18.6',
+54 silly addNameRange     '4.10.6',
+54 silly addNameRange     '4.10.7',
+54 silly addNameRange     '3.19.0',
+54 silly addNameRange     '4.10.8',
+54 silly addNameRange     '4.11.0',
+54 silly addNameRange     '3.19.1',
+54 silly addNameRange     '4.11.1',
+54 silly addNameRange     '3.19.2',
+54 silly addNameRange     '4.11.2',
+54 silly addNameRange     '3.20.0',
+54 silly addNameRange     '4.12.0',
+54 silly addNameRange     '3.20.1',
+54 silly addNameRange     '4.12.1',
+54 silly addNameRange     '4.12.2',
+54 silly addNameRange     '3.20.2',
+54 silly addNameRange     '4.12.3',
+54 silly addNameRange     '3.20.3',
+54 silly addNameRange     '4.12.4' ] ]
+55 silly addNamed express@4.12.4
+56 verbose addNamed "4.12.4" is a plain semver version for express
+57 silly cache afterAdd connect@1.9.2
+58 verbose afterAdd /Users/Natalie Sun /.npm/connect/1.9.2/package/package.json not in flight; writing
+59 silly cache afterAdd express@4.12.4
+60 verbose afterAdd /Users/Natalie Sun /.npm/express/4.12.4/package/package.json not in flight; writing
+61 verbose afterAdd /Users/Natalie Sun /.npm/connect/1.9.2/package/package.json written
+62 verbose afterAdd /Users/Natalie Sun /.npm/express/4.12.4/package/package.json written
+63 silly install resolved [ { name: 'connect',
+63 silly install resolved     version: '1.9.2',
+63 silly install resolved     description: 'High performance middleware framework',
+63 silly install resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+63 silly install resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+63 silly install resolved     author:
+63 silly install resolved      { name: 'TJ Holowaychuk',
+63 silly install resolved        email: 'tj@vision-media.ca',
+63 silly install resolved        url: 'http://tjholowaychuk.com' },
+63 silly install resolved     dependencies: { qs: '>= 0.4.0', mime: '>= 0.0.1', formidable: '1.0.x' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { expresso: '0.9.2',
+63 silly install resolved        koala: '0.1.2',
+63 silly install resolved        less: '1.1.1',
+63 silly install resolved        sass: '0.5.0',
+63 silly install resolved        markdown: '0.2.1',
+63 silly install resolved        ejs: '0.4.3',
+63 silly install resolved        should: '0.3.2' },
+63 silly install resolved     publishConfig: { tag: '1.8' },
+63 silly install resolved     main: 'index',
+63 silly install resolved     _id: 'connect@1.9.2',
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '42880a22e9438ae59a8add74e437f58ae8e52807',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/connect/-/connect-1.9.2.tgz' },
+63 silly install resolved     maintainers: [ [Object], [Object] ],
+63 silly install resolved     directories: {},
+63 silly install resolved     _shasum: '42880a22e9438ae59a8add74e437f58ae8e52807',
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/connect/-/connect-1.9.2.tgz',
+63 silly install resolved     _from: 'connect@1.9.2',
+63 silly install resolved     bugs: { url: 'https://github.com/senchalabs/connect/issues' },
+63 silly install resolved     readme: 'ERROR: No README data found!',
+63 silly install resolved     homepage: 'https://github.com/senchalabs/connect#readme' },
+63 silly install resolved   { name: 'express',
+63 silly install resolved     description: 'Fast, unopinionated, minimalist web framework',
+63 silly install resolved     version: '4.12.4',
+63 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+63 silly install resolved     contributors:
+63 silly install resolved      [ [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object] ],
+63 silly install resolved     license: 'MIT',
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git+https://github.com/strongloop/express.git' },
+63 silly install resolved     homepage: 'http://expressjs.com/',
+63 silly install resolved     keywords:
+63 silly install resolved      [ 'express',
+63 silly install resolved        'framework',
+63 silly install resolved        'sinatra',
+63 silly install resolved        'web',
+63 silly install resolved        'rest',
+63 silly install resolved        'restful',
+63 silly install resolved        'router',
+63 silly install resolved        'app',
+63 silly install resolved        'api' ],
+63 silly install resolved     dependencies:
+63 silly install resolved      { accepts: '~1.2.7',
+63 silly install resolved        'content-disposition': '0.5.0',
+63 silly install resolved        'content-type': '~1.0.1',
+63 silly install resolved        cookie: '0.1.2',
+63 silly install resolved        'cookie-signature': '1.0.6',
+63 silly install resolved        debug: '~2.2.0',
+63 silly install resolved        depd: '~1.0.1',
+63 silly install resolved        'escape-html': '1.0.1',
+63 silly install resolved        etag: '~1.6.0',
+63 silly install resolved        finalhandler: '0.3.6',
+63 silly install resolved        fresh: '0.2.4',
+63 silly install resolved        'merge-descriptors': '1.0.0',
+63 silly install resolved        methods: '~1.1.1',
+63 silly install resolved        'on-finished': '~2.2.1',
+63 silly install resolved        parseurl: '~1.3.0',
+63 silly install resolved        'path-to-regexp': '0.1.3',
+63 silly install resolved        'proxy-addr': '~1.0.8',
+63 silly install resolved        qs: '2.4.2',
+63 silly install resolved        'range-parser': '~1.0.2',
+63 silly install resolved        send: '0.12.3',
+63 silly install resolved        'serve-static': '~1.9.3',
+63 silly install resolved        'type-is': '~1.6.2',
+63 silly install resolved        vary: '~1.0.0',
+63 silly install resolved        'utils-merge': '1.0.0' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { after: '0.8.1',
+63 silly install resolved        ejs: '2.3.1',
+63 silly install resolved        istanbul: '0.3.9',
+63 silly install resolved        marked: '0.3.3',
+63 silly install resolved        mocha: '2.2.5',
+63 silly install resolved        should: '6.0.1',
+63 silly install resolved        supertest: '1.0.1',
+63 silly install resolved        'body-parser': '~1.12.4',
+63 silly install resolved        'connect-redis': '~2.3.0',
+63 silly install resolved        'cookie-parser': '~1.3.4',
+63 silly install resolved        'cookie-session': '~1.1.0',
+63 silly install resolved        'express-session': '~1.11.2',
+63 silly install resolved        jade: '~1.9.2',
+63 silly install resolved        'method-override': '~2.3.3',
+63 silly install resolved        morgan: '~1.5.3',
+63 silly install resolved        multiparty: '~4.1.2',
+63 silly install resolved        vhost: '~3.0.0' },
+63 silly install resolved     engines: { node: '>= 0.10.0' },
+63 silly install resolved     files: [ 'LICENSE', 'History.md', 'Readme.md', 'index.js', 'lib/' ],
+63 silly install resolved     scripts:
+63 silly install resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/',
+63 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/',
+63 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/',
+63 silly install resolved        'test-tap': 'mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/' },
+63 silly install resolved     gitHead: 'e9c9f95ade0f20a048861ac886d4767a839d5286',
+63 silly install resolved     bugs: { url: 'https://github.com/strongloop/express/issues' },
+63 silly install resolved     _id: 'express@4.12.4',
+63 silly install resolved     _shasum: '8fec2510255bc6b2e58107c48239c0fa307c1aa2',
+63 silly install resolved     _from: 'express@>=4.0.0 <5.0.0',
+63 silly install resolved     _npmVersion: '1.4.28',
+63 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+63 silly install resolved     maintainers:
+63 silly install resolved      [ [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object] ],
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '8fec2510255bc6b2e58107c48239c0fa307c1aa2',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/express/-/express-4.12.4.tgz' },
+63 silly install resolved     directories: {},
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/express/-/express-4.12.4.tgz',
+63 silly install resolved     readme: 'ERROR: No README data found!' } ]
+64 info install connect@1.9.2 into /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator
+65 info install express@4.12.4 into /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator
+66 info installOne connect@1.9.2
+67 verbose installOne of connect to /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator not in flight; installing
+68 info installOne express@4.12.4
+69 verbose installOne of express to /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator not in flight; installing
+70 warn locking Error: EACCES, open '/Users/Natalie Sun /.npm/_locks/connect-033f75984536e95b.lock'
+70 warn locking     at Error (native)
+70 warn locking  /Users/Natalie Sun /.npm/_locks/connect-033f75984536e95b.lock failed { [Error: EACCES, open '/Users/Natalie Sun /.npm/_locks/connect-033f75984536e95b.lock']
+70 warn locking   errno: -13,
+70 warn locking   code: 'EACCES',
+70 warn locking   path: '/Users/Natalie Sun /.npm/_locks/connect-033f75984536e95b.lock' }
+71 verbose stack Error: Attempt to unlock /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator/node_modules/connect, which hasn't been locked
+71 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+71 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+71 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+71 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+71 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+71 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+71 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+72 verbose cwd /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator
+73 error Darwin 14.3.0
+74 error argv "node" "/usr/local/bin/npm" "install"
+75 error node v0.12.4
+76 error npm  v2.11.1
+77 error Attempt to unlock /Users/Natalie Sun /GitHub/BuzzFeed-Headline-Generator/node_modules/connect, which hasn't been locked
+78 error If you need help, you may report this error at:
+78 error     <https://github.com/npm/npm/issues>
+79 verbose exit [ 1, true ]
