@@ -3,6 +3,9 @@ var http = require("http");
 var express = require('express');
 var app = express();
 
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8888; // 8888 was my original port
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
+
 // Original code:
 
 
@@ -352,7 +355,7 @@ app.get('/headline.json', function(req, res){
   res.send(headline());
 });
 
-var server = app.listen(5000, function() {
+var server = app.listen(server_port, server_ip_address, function() {
     console.log('Listening on port %d', server.address().port);
 });
 
