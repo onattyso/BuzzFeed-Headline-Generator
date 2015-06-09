@@ -1,8 +1,8 @@
 {
   "name": "BuzzFeed-Headline",
   "version": "1.0.0",
-  "main": "server.js"
-  },
+  "main": "server.js",
+
   "dependencies": {
     "express": "4.x",
     "connect": "1.9.2"
